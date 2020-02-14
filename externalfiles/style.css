@@ -1,22 +1,15 @@
 
-{
+.ucustom-ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
+    margin: 25em;
+    padding: 3em;
     overflow: hidden;
     background-color: #333;
-  }
-  
-  .col-sm-2 {
-    float: left;
-
-  }
-  
-  .box {
-    display: inline-block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
+    float: right;
     text-decoration: none;
   }
   
+  .custom-navbar-brand{
+    font-size:3em ;
+    margin-left: 20px;
+  }

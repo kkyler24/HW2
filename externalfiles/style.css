@@ -1,0 +1,17 @@
+
+.nav-item1{
+    margin: 5px 5px 5px 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.bootstrap-overrides nav-link {
+    color:#141415;
+    text-decoration: none;
+    background-color: transparent;
+}
+
+#Navname{
+    font-size: x-large;
+    color: black;
+}

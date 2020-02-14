@@ -1,15 +1,24 @@
 
-.ucustom-ul {
-    list-style-type: none;
-    margin: 25em;
-    padding: 3em;
-    overflow: hidden;
-    background-color: #333;
-    float: right;
-    text-decoration: none;
-  }
-  
   .custom-navbar-brand{
-    font-size:3em ;
-    margin-left: 20px;
+    font-size:3em !important;
   }
+
+  .aboutMe{
+    background-color: whitesmoke !important;
+    width: 50% !important;
+    margin: 90px !important;
+    padding:30px;
+  }
+
+   body{
+     background-image: url(https://images.unsplash.com/photo-1520634996521-d0985c84316a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1507895253950-96a84b54bbc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1464467455101-be37479313ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80://images.unsplash.com/photo-1441260038675-7329ab4cc264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+     background-size: cover;
+     background-attachment: fixed;
+   }
+
+   .nav-link{
+     color: black;
+     font-weight: bold;
+   }
+  
+   

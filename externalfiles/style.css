@@ -10,15 +10,55 @@
     padding:30px;
   }
 
-   body{
+   .body-index{
      background-image: url(https://images.unsplash.com/photo-1520634996521-d0985c84316a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1507895253950-96a84b54bbc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1464467455101-be37479313ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80://images.unsplash.com/photo-1441260038675-7329ab4cc264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
      background-size: cover;
      background-attachment: fixed;
+   }
+   .body-portfolio{
+    background-image: url(https://images.unsplash.com/photo-1555181937-efe4e074a301?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1555181937-efe4e074a301?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1520634996521-d0985c84316a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1507895253950-96a84b54bbc4?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60://images.unsplash.com/photo-1464467455101-be37479313ec?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80://images.unsplash.com/photo-1441260038675-7329ab4cc264?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60);
+    background-size: cover;
+    background-attachment: fixed;
    }
 
    .nav-link{
      color: black;
      font-weight: bold;
    }
-  
+
+   #boxy{
+     min-height: 100px;
+   }
+
+   #main{
+     overflow: auto;
+     padding-bottom: 100px;
+
+   }
+
+   #footer1{
+    position: absolute;
+    text-align: center;
+    background:whitesmoke;
+    height: 40px;
+    width: 100%;
+    margin-top: 300px;
+    clear: both;
+   }
    
+   img{
+    width: 30%;
+    height: 444px;
+   float: left;
+    margin: 1.66%;
+   }
+
+  .p1{
+      display: block;
+      margin-block-start: 1em;
+    font-size: 40px;
+    margin: 1.66%;
+    border-bottom: 2px solid #a39d9d;
+    width: 30%;
+    padding-bottom: 20px;
+  }

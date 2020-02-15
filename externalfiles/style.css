@@ -36,7 +36,7 @@
 
    }
 
-   #footer1{
+   #footer1 {
     position: absolute;
     text-align: center;
     background:whitesmoke;
@@ -46,9 +46,8 @@
     clear: both;
    }
    
-   img{
-    width: 30%;
-    height: 444px;
+   .img1{
+    width: 100%;
    float: left;
     margin: 1.66%;
    }
@@ -61,4 +60,16 @@
     border-bottom: 2px solid #a39d9d;
     width: 30%;
     padding-bottom: 20px;
+  }
+  .footer{
+    position: absolute;
+    text-align: center;
+    background:whitesmoke;
+    height: 40px;
+    width: 100%;
+    margin-top: 300px;
+    clear: both;
+  }
+  .colp{
+    padding: 20px;
   }

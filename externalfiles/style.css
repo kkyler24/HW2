@@ -85,7 +85,23 @@
   .img2{
       height: 334px
   }
-  .from{
-    width: 800px;
-    box-align: center;
+
+  .card{
+    margin: auto;
   }
+  .card-body{
+    text-align: center;
+    margin-top: 15px;
+    padding: .25rem;
+  }
+
+  .input-group{
+    margin-right: .25rem;
+    margin-left: .25rem;
+  }
+
+  #MM{
+    text-align: center;
+    margin-bottom: 25px;
+  }
+  

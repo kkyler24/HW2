@@ -1,1 +1,1 @@
-# about-me
+# I did each page individually that represents a different part of my personality. you can begin to see this either through the background images or the gallery itself. I will update and be more descriptive about who I am later, for now enjoy the bacon ipsum!

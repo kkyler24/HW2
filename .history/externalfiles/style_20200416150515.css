@@ -72,7 +72,6 @@ footer .footer-col {
   margin-bottom: 30px;
 }
 
-
 .btn-social {
   display: inline-block;
   width: 50px;
@@ -88,7 +87,7 @@ footer .footer-col {
 .fa-fw {
   width: 1.28571429em;
   text-align: center;
-  
+  font-size: x-small;
 }
 
 .fa {
@@ -97,7 +96,7 @@ footer .footer-col {
   font-weight: normal;
   line-height: 1;
   color: white;
-  
+  font-size: x-small;
 }
 
 .list-inline {
@@ -115,14 +114,13 @@ footer .footer-col {
   
    #textChange{
      color: whitesmoke;
-     font-family: 'Playfair Display SC', serif;
-     font-size: 30px;
+     font-family: 'Playfair Display SC', serif;;
    }
    
    .footer-flex-container-main{
      margin-left: 40%;
      margin-right: 40%;
-     
+     font-size: smaller;
    }
    /* end of footer */
    .img1{

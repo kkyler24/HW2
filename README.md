@@ -1,1 +1,1 @@
-# I did each page individually that represents a different part of my personality. you can begin to see this either through the background images or the gallery itself. I will update and be more descriptive about who I am later, for now enjoy the bacon ipsum!
+# This is my first profile page. I wanted to show more than just projects, but a journey into becoming a Full Stack developer and the ups and downs that it includes. I wanted to show where I started and where I am now to show the level of growth and success that I have achieved. 

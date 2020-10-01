@@ -15,7 +15,7 @@
   background-color: whitesmoke;
 }
 
-#landingSection {
+.landingSection {
   background-image: url(../Assets/sharon-mccutcheon-BucjGtyv58A-unsplash.jpg);
   background-size: cover;
   background-attachment: fixed;

@@ -6,8 +6,15 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Gallery</title>
+  <!-- bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
     integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- font Awesome -->
+    <link
+    rel="stylesheet"
+    href="https://jeromelachaud.com/freelancer-theme/css/font-awesome/css/font-awesome.min.css"
+  />
   <link rel="stylesheet" href="../externalfiles/style.css">
 
 </head>
@@ -15,20 +22,56 @@
 <body class="body-portfolio">
 
   <!-- Navbar -->
-  <nav class="navbar navbar-light bg-light justify-content-end">
-    <ul class="nav">
-      <div></div>
-      <li class="nav-item">
-        <a class="nav-link right" href="../index.html">About me</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link right" href="Portfolio.html">Portfolio</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link right " href="contact.html">Contact</a>
-      </li>
-    </ul>
+  <nav class="navbar navbar-light transparent flex-row-reverse">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      Menu<br />
+      
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav float-right">
+        <li class="nav-item active">
+          <a class="nav-link list-inline" href="../index.html"
+            >Home </a
+          >
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./Portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html">contact</a>
+        </li>
+        <!-- <li class="nav-item">
+          <a
+            class="nav-link disabled"
+            href="#"
+            tabindex="-1"
+            aria-disabled="true"
+            >Disabled</a
+          >
+        </li> -->
+      </ul>
+    </div>
+    <a class="navbar-brand" href="./index.html">
+      <img
+        src="../Assets/HoneyCombBee.png"
+        width="40"
+        height="40"
+        class="d-inline-block align-top"
+        alt=""
+      />
+      Busy Bee
+    </a>
   </nav>
+
 
   <!-- Heading -->
 
@@ -103,13 +146,54 @@
 
 
   <!-- footer -->
-  <div id="boxy">
-    <div id="main"></div>
-  </div>
+  <footer class="text-center">
+    <div class="footer-above">
+      <div class="blank-flex-container-2"></div>
 
-  <footer class="footer">
-    <p>Built by Ky</p>
+      <div class="footer-flex-container-main">
+        <h3 id="textChange">Journey with Me!</h3>
+        <ul class="list-inline">
+          <li>
+            <a href="https://www.instagram.com" class="btn-social btn-outline"
+              ><i class="fa fa-fw fa-instagram"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com" class="btn-social btn-outline"
+              ><i class="fa fa-fw fa-twitter"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com" class="btn-social btn-outline"
+              ><i class="fa fa-fw fa-linkedin"></i
+            ></a>
+          </li>
+          <li>
+            <a href="https://github.com" class="btn-social btn-outline"
+              ><i class="fa fa-fw fa-github"></i
+            ></a>
+          </li>
+        </ul>
+        <p>Copyright &copy;</p>
+      </div>
+      <div class="blank-flex-container-2"></div>
+    </div>
   </footer>
-</body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"
+  ></script>
 
 </html>

@@ -31,12 +31,20 @@
 
     <title>Busy Bee</title>
   </head>
-  <!-- <style>
+  <style>
     #SectOneindex {
       /* The image used */
-     
+      background-image: url("../Assets/557-5571948_honey-bee-clip-art-honey-drip-transparent-background.png");
+      /* Set a specific height */
+      min-height: 700px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
     }
-    </style> -->
+    </style>
   <body >
     <div id="SectOneindex">
      
@@ -90,12 +98,13 @@
           Busy Bee
         </a>
       </nav>
-    <div></div>
+    
     <!-- End of NavBar -->
     <main>
       
         <!-- main Content -->
-        <div class="container aboutMe no-gutters" style="height:1000px;background-color:whitesome;">
+        <row Id="indexBKR">
+        <div class="container aboutMe no-gutters">
           <h3>About Me</h3>
           <hr />
           <img
@@ -103,7 +112,20 @@
             alt="lion cub laying on grass"
             class="img-thumbnail"
           />
-          <p> Bacon ipsum dolor amet tri-tip porchetta tenderloin rump swine
+          <p></p>
+        </div>
+      </sectionOne>
+      <sectionTwo>
+        <div class="container aboutMe no-gutters">
+          <h3>About Me</h3>
+          <hr />
+          <img
+            src="https://images.unsplash.com/photo-1499711662666-663aca693cde?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60"
+            alt="lion cub laying on grass"
+            class="img-thumbnail"
+          />
+          <p>
+            Bacon ipsum dolor amet tri-tip porchetta tenderloin rump swine
             hamburger pastrami shank, shoulder turkey tongue pork chop leberkas
             andouille drumstick. Doner pork landjaeger, ribeye tail kielbasa
             porchetta sausage. Beef strip steak chislic frankfurter corned beef.
@@ -112,10 +134,10 @@
             bresaola t-bone doner sausage hamburger chuck, turducken kielbasa
             pancetta strip steak meatloaf ball tip. Cupim picanha hamburger,
             leberkas swine capicola pork belly.
-          </p></p>
+          </p>
         </div>
-      </sectionOne>
-     
+      </sectionTwo>
+    </row>
     </main>
     <!-- footer -->
     <footer class="text-center">

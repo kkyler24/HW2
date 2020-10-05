@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+/* .dropdown-menu{
+      hover
+  } */
+
+#SectOneindex {
+  background-image: url("../Assets/—Pngtree—yellow/ simple/ gourmet/ nutrition/ honey_1088902.jpg");
+  background-size: cover;
+  height: 600px;
+  z-index: -1;
+}
+/* 
+#landingSection {
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: whitesmoke; */
+/* }
+
+#indexBKR {
+} */ */

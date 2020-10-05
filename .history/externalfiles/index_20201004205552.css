@@ -1,0 +1,25 @@
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+/* .dropdown-menu{
+      hover
+  } */
+
+.SectOne-index {
+  z-index: -1;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+#landingSection {
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: whitesmoke; */
+}
+
+#indexBKR {
+}

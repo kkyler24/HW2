@@ -1,0 +1,31 @@
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+/* .dropdown-menu{
+      hover
+  } */
+ 
+#SectOneindex {
+  background-image: url("../Assets/557-5571948_honey-bee-clip-art-honey-drip-transparent-background.png");
+      /* Set a specific height */
+      max-height: 700px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+} 
+
+#landingSection {
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: whitesmoke; */
+/* }
+
+#indexBKR {
+} */ */

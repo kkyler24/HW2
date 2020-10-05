@@ -11,19 +11,18 @@
 
 #SectOneindex {
   background-image: url("../Assets/557-5571948_honey-bee-clip-art-honey-drip-transparent-background.png");
-  /* Set a specific height */
-  max-height: 950px;
-
-  /* Create the parallax scrolling effect */
-  background-attachment: fixed;
-  background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 1000px;
+  max-width: 1500px;
+  z-index: -1;
 }
+/* 
+#landingSection {
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: whitesmoke; */
+/* }
 
-.aboutMe {
-  background-color: whitesmoke !important;
-  width: 50% !important;
-  margin: 55% auto 90px auto !important;
-  padding: 30px;
-}
+#indexBKR {
+} */ */

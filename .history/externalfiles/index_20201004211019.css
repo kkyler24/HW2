@@ -1,0 +1,26 @@
+@media screen and (max-width: 600px) {
+  ul.topnav li.right,
+  ul.topnav li {
+    float: none;
+  }
+}
+
+/* .dropdown-menu{
+      hover
+  } */
+
+.SectOne-index {
+  background-image: url("../Assets/HoneydrippingFromTop.png");
+  background-size: cover;
+  height: 600px;
+  width: 500px;
+}
+
+#landingSection {
+  background-size: cover;
+  background-attachment: fixed;
+  /* background-color: whitesmoke; */
+}
+
+#indexBKR {
+}

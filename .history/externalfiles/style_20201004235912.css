@@ -8,7 +8,9 @@ background-color: black;
   border-color: rgba(252, 250, 250);
   font-size: small;
 }
-
+.navbar {
+  position: fixed;
+}
 /* Navbar background color */
 .bg-light {
   background-color: #040505 !important;
